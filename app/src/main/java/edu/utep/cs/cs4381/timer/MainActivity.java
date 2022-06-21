@@ -49,7 +49,7 @@ public class MainActivity extends AppCompatActivity {
     public void stopClicked(View view) {
         displayTime();
         tm.stop();
-        Toast.makeText(this, "Stop tapped!", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "Stopped!", Toast.LENGTH_SHORT).show();
         startButton.setEnabled(true);
         stopButton.setEnabled(false);
     }
